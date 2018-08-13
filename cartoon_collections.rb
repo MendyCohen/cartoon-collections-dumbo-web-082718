@@ -21,6 +21,6 @@ end
 def find_the_cheese(str)
   cheese_types = ["cheddar", "gouda", "camembert"]
    arr = []
-   arr<< puts cheese_types.include?(str)
+   arr << puts cheese_types.include?(str)
    arr
 end
