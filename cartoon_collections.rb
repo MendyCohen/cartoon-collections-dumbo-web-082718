@@ -23,5 +23,4 @@ def find_the_cheese(str)
      cheese_types.find(str) do |x|
         x
   end
-  puts str
 end
