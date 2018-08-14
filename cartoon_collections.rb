@@ -20,5 +20,6 @@ end
 
 def find_the_cheese(str)
   cheese_types = ["cheddar", "gouda", "camembert"]
-    puts str.include?(cheese_types)
+    if str.include?(cheese_types)
+      cheese_types
 end
