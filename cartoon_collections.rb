@@ -20,7 +20,5 @@ end
 
 def find_the_cheese(str)
   cheese_types = ["cheddar", "gouda", "camembert"]
-    if str == cheese_types
-      puts cheese_types[0]
-    end
+    
 end
