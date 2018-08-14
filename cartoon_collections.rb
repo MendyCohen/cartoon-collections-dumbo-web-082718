@@ -21,7 +21,7 @@ end
 def find_the_cheese(str)
   cheese_types = ["cheddar", "gouda", "camembert"]
      cheese_types.find(str) do |x|
-       return x
+        x
   end
   puts str
 end
