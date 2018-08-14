@@ -20,5 +20,5 @@ end
 
 def find_the_cheese(str)
   cheese_types = ["cheddar", "gouda", "camembert"]
-    return puts str.find(cheese_types)
+    return puts cheese_types.find(str)
 end
